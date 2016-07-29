@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8"> 
 	<title>Blair Beverly's Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
+
+	<script   
+		src="https://code.jquery.com/jquery-1.12.4.min.js"   
+		integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   
+		crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
 </head>
 <body>
 	<div id="header">
 		<ul>
-			<li><a href="https://github.com/electricblanket/portfolio">GitHub</a></li>
+			<li><a href="https://github.com/BlairBeverly">GitHub</a></li>
 			<li><a href="https://www.linkedin.com/in/blair-beverly-03839923">LinkedIn</a></li>
 			<li><a href="">Resume</a></li>
 		</ul>
@@ -15,19 +26,61 @@
 
 	<div class="bg-img1">
 		<div class="caption">
-			<span class="border">BLAIR BEVERLY</span><br><br>
-			<span class="subtitle">Full-stack developer. Googler. Lean Startup enthusiast. Shooting for the stars.</span>
+			<span class="maintitle">BLAIR BEVERLY</span><br><br>
+			<span class="subtitle">Full-stack developer. Data analyst. Lean Startup enthusiast. Shooting for the stars.</span>
 		</div>
 	</div>
 	<div class="content">
-		<p>Short description of what project one does and what technologies were used</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet dolor eleifend, facilisis nisi in, tincidunt tortor.</p>
 	</div>
 	<div class="bg-img2">
+		<div class="slider">
+			<div class="sc">
+				<div class="screenshot">Screenshot 1</div>
+				Lorem ipsum dolor sit amet
+			</div>
+			<div class="sc">
+				<div class="screenshot">Screenshot 2</div>
+				consectetur adipiscing elit
+			</div>
+			<div class="sc">
+				<div class="screenshot">Screenshot 3</div>
+				Suspendisse laoreet dolor eleifend
+			</div>
+		</div>
 	</div>
 	<div class="content">
-		<p>Short description of what project two does and what technologies were used</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet dolor eleifend, facilisis nisi in, tincidunt tortor.</p>
 	</div>
 	<div class="bg-img3">
+		<div class="slider">
+			<div class="sc">
+				<div class="screenshot">Screenshot 1</div>
+				Lorem ipsum dolor sit amet
+			</div>
+			<div class="sc">
+				<div class="screenshot">Screenshot 2</div>
+				consectetur adipiscing elit
+			</div>
+			<div class="sc">
+				<div class="screenshot">Screenshot 3</div>
+				Suspendisse laoreet dolor eleifend
+			</div>
+		</div>
 	</div>
+	<script>
+		$(document).ready(function(){
+		  $('.slider').slick({
+		    dots: false,
+		    centerMode: true,
+		    slidesToShow: 1,
+		    arrows: false,
+		    fade: true,
+		    infinite: true,
+		    autoplay: true,
+           	autoplaySpeed: 4000,
+		  });
+		});
+	</script>
 </body>
 </html>

@@ -9,35 +9,49 @@ body, html {
 }
 .bg-img1, .bg-img2, .bg-img3 {
 	position:relative;
-    opacity: 0.8;
+ 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .content{
-	height:100px;
+	min-height:80px;
 	background-color:#282E34;
-	font-size:20px;
+	/*background-color:white;*/
+	font-size:18px;
 	color:white;
 	padding:15px;
+	text-align:center;
+	line-height:80px;
 }
 .bg-img1{
-    background-image: url("http://wallpapershome.com/images/pages/pic_hs/6592.jpg");	
-    min-height: 95%;
+    /*background-image: url("http://wallpapershome.com/images/pages/pic_hs/6592.jpg");*/
+	/**/
+background-image: url("https://c1.staticflickr.com/1/712/22290102206_e71e6de333_b.jpg");
+
+    
+    min-height: 96%;
+    opacity: 0.85;
 
 }
 .bg-img2{
-    background-image: url("https://newevolutiondesigns.com/images/freebies/space-wallpaper-29.jpg");	
+    /*background-image: url("http://i556.photobucket.com/albums/ss1/jwith13/school/big-orange-sun-4.jpg");*/
+	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg");*/
+    background-image: url("https://pixabay.com/static/uploads/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg");	
     min-height: 100%;
+    opacity: 0.75;
 }
 .bg-img3{
-	background-image: url(http://marshall.org/wp-content/themes/marshall/img/featured-space-policy.jpg);
+	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f3/Swarm_of_fish_in_the_blue_looking_up%2C_Daedalus_Reef%2C_Red_Sea%2C_Egypt.jpeg");*/
+	
+	background-image: url(https://c1.staticflickr.com/9/8682/16026201013_e09213920c_b.jpg);
 	min-height: 100%;
+	opacity: 0.75;
 }
 
 #header{
-	height:5%px;
+	height:4%;
 	background-color:#282E34;
 	padding:15px;
 	font-size:16px;
@@ -52,7 +66,7 @@ body, html {
   text-align: center;
   color: #000;
 }
-.caption span.border {
+.caption span.maintitle {
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -65,19 +79,52 @@ body, html {
   padding: 18px;
   font-size: 15px;
   font-weight:bold;
-  margin-top:5px;
   font-weight:lighter;
+}
+.slider {
+
+  margin: auto;
+  width:80%;
+  height:400px;
+  padding:15px;
 
 }
-ul{
+/*.slider div{
+	width:800px;
+	height:550px;
+	margin: auto;
+	color:white;
+	font-size:20px;
+}*/
+.screenshot {
+	margin: 40px auto;
+	width:80%;
+	height:400px;
+	background-color:black;
+	opacity:0.5;
+	padding:20px;
+	color:white;
+	font-size:40px;
+	text-align:left;
+}
+.sc{
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+
+#header ul{
 	list-style: none;
 }
-ul li {
+#header ul li {
 	display:inline;
 	margin-right:20px;
 }
-ul li a{
+#header ul li a{
 	text-decoration: none;
-		color:white;
+	color:white;
 }
-}
+/*#secondcontent{
+	position:relative;
+	top:-20px;
+}*/
